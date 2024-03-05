@@ -11,11 +11,11 @@ This study explores the enhancement of automatic scoring systems through the fin
 |---------------------------------------------|------------------|
 | Fine-tuning ChatGPT for automatic scoring   | [Link](https://www.sciencedirect.com/science/article/pii/S2666920X24000110) |
 
-## Abstract
+## Fine-Tuning Language Models with Just Forward Passes
 
 The paper "Fine-Tuning Language Models with Just Forward Passes" introduces a memory-efficient zeroth-order optimizer (MeZO) designed to fine-tune large language models (LMs) with the same memory footprint as inference, circumventing the prohibitive memory requirements of backpropagation for large models. Through adapting the classical Zeroth-Order Stochastic Gradient Descent (ZO-SGD) method for in-place operation, MeZO enables training on models up to 30 billion parameters on a single A100 80GB GPU—a task only feasible for a 2.7B parameter model using traditional backpropagation. Comprehensive experiments demonstrate MeZO's efficacy across various model scales (up to 66B), types (masked and autoregressive LMs), and tasks (classification, multiple-choice, and generation), achieving comparable or superior performance to backpropagation and other parameter-efficient tuning techniques, with significantly reduced memory and computational resources. The paper also provides theoretical insights supporting MeZO's capability to fine-tune large models effectively, despite traditional analyses suggesting otherwise.
 
-## Fine-Tuning Language Models with Just Forward Passe
+## Relevant Papers
 
 | Topic                                                             | Code | Paper |
 |-------------------------------------------------------------------|------|-------|
