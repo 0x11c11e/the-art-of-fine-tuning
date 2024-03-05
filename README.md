@@ -17,6 +17,6 @@ The paper "Fine-Tuning Language Models with Just Forward Passes" introduces a me
 
 ## Fine-Tuning Language Models with Just Forward Passe
 
-| Topic                                                             | Paper |
-|-------------------------------------------------------------------|-------|
-| Fine-Tuning Language Models with Just Forward Passes | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/a627810151be4d13f907ac898ff7e948-Paper-Conference.pdf) |
+| Topic                                                             | Code | Paper |
+|-------------------------------------------------------------------|------|-------|
+| Fine-Tuning Language Models with Just Forward Passes              | [Github](https://github.com/princeton-nlp/MeZO) | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/a627810151be4d13f907ac898ff7e948-Paper-Conference.pdf) |
