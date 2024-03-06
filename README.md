@@ -1,5 +1,7 @@
-# The art of fine tuning
-This repository includes a combination of how to fine tune different large language models with different datasets
+# The Art of Fine Tuning
+Fine-tuning is a process where a pre-trained model is further trained on a new dataset to supplement its existing knowledge. This approach enables the model to become adept at performing specific tasks beyond its initial training, such as classification, summarization, or conversational interactions. Originally, large language models are typically designed as autoregressive models, primarily focusing on predicting the next token in a sequence based on the preceding context. This design inherently limits their direct applicability to specialized tasks without additional training.
+
+To adapt these models for various downstream tasks, they are fine-tuned using datasets tailored to these specific applications. This process allows the models to apply their broad foundational knowledge effectively to the new tasks. It's important to note that during the initial training phase of a large language model, the parameters start from arbitrary values. Optimizing these parameters to a state where the model is both effective and efficient involves considerable computational resources and expense. Hence, the cost of training a large language model from scratch is significantly higher than fine-tuning an existing model. The latter leverages the extensive learning already encapsulated in the pre-trained model, reducing the need for extensive computational resources and thus lowering costs. This approach not only economizes on training expenses but also expedites the model's readiness for specific applications.
 
 ## Fine-tuning ChatGPT for automatic scoring
 
