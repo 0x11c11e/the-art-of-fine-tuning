@@ -4,6 +4,11 @@ Fine-tuning is a process where a pre-trained model is further trained on a new d
 To adapt these models for various downstream tasks, they are fine-tuned using datasets tailored to these specific applications. This process allows the models to apply their broad foundational knowledge effectively to the new tasks. It's important to note that during the initial training phase of a large language model, the parameters start from arbitrary values. Optimizing these parameters to a state where the model is both effective and efficient involves considerable computational resources and expense. Hence, the cost of training a large language model from scratch is significantly higher than fine-tuning an existing model. The latter leverages the extensive learning already encapsulated in the pre-trained model, reducing the need for extensive computational resources and thus lowering costs. This approach not only economizes on training expenses but also expedites the model's readiness for specific applications.
 
 ---
+## Fine tune in Colab
+
+| Fine-tune Llama 2 in Google Colab | [Link](https://colab.research.google.com/drive/1FSMdcdX7Lwr-yQRhosDPRAZ6Mm0wpSRu#scrollTo=VspxyjL54uPz) |
+
+---
 
 ## Fine-tuning ChatGPT for automatic scoring
 
